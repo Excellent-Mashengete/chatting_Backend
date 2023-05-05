@@ -1,0 +1,32 @@
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\DotNet Core.exe
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\DotNet Core.deps.json
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\DotNet Core.runtimeconfig.json
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\DotNet Core.dll
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\DotNet Core.pdb
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.AssemblyInfo.cs
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\staticwebassets\msbuild.DotNet Core.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\staticwebassets\msbuild.build.DotNet Core.props
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DotNet Core.props
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DotNet Core.props
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\scopedcss\bundle\DotNet Core.styles.css
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.csproj.CopyComplete
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.dll
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\refint\DotNet Core.dll
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.pdb
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\DotNet Core.genruntimeconfig.cache
+C:\Users\User\Documents\Personal\chatting_Backend\DotNet Core\DotNet Core\obj\Debug\net6.0\ref\DotNet Core.dll
