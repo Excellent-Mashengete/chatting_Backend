@@ -1,4 +1,4 @@
-const db = require("../Models");
+const db = require("../../Models");
 const users = db.Users;
 
 module.exports.logout = async (req, res) => {

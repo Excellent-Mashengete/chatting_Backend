@@ -37,11 +37,11 @@ module.exports.VerifyOTP = async (req, res) => {
             });
             
             //Create a JWT token key for the user to receive in the frontend
-            const accessToken = jwt.sign({ 
-                    "id": user.dataValues.id
-                },
-                process.env.ACCESS_TOKEN_SECRET,
-                { expiresIn: '86400' }
+            const accessToken = jwt.sign({ "id": user.dataValues.id},
+                process.env.ACCESS_TOKEN_SECRET,{
+                    algorithm: "HS256",
+                    expiresIn: 3600 * 24 *24
+                }
             );
 
             return res.status(200).json({ message: 'OTP PIN verified successfully!', phone: user.dataValues.phone, name: user.dataValues.firstname + " " + user.dataValues.lastname, token :accessToken, isLoogedIn: user.dataValues.isLoogedIn });

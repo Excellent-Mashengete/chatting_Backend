@@ -25,7 +25,7 @@ app.use(express.json());
 
 const db = require('./App/Models/');
 
-db.sequelize.sync({force: true }) //once your server is running change sync to authenticted and true to false
+db.sequelize.authenticate({force: false }) //once your server is running change sync to authenticted and true to false
    .then(() => {
       console.log("Database is connected");
    }).catch((err) => {
@@ -33,16 +33,17 @@ db.sequelize.sync({force: true }) //once your server is running change sync to a
    })
 
 const auth = require('./App/Routes/auth');
-const profile = require('./App/Routes/profile');
-const requests  = require('./App/Routes/requestEmails');
+const send = require('./App/Routes/sendmess');
+const getmess  = require('./App/Routes/getmess');
 
 app.get('/', (req, res) =>{
     res.status(200).send('Sever Initialized and Online. Ready to take OFF!');
 });
 
 app.use('/api', auth);
-app.use('/api', profile);
-app.use('/api', requests);
+app.use('/api', send);
+app.use('/api', getmess);
+
 
 app.listen(port, () =>{
    console.log(`Server is running on port ${port}.`) 

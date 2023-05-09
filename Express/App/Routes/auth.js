@@ -6,11 +6,11 @@ const { verifyJWT } = require('../Middlewares/verifyJWT');
 const { checkDuplicateUsernameOrEmail } = require('../Middlewares/verifySignup');
 const { ConfirmPassword } = require('../Middlewares/confirmPassword');
 //controllers
-const { logout } = require('../Controllers/logout');
+const { logout } = require('../Controllers/Auth/logout');
 const { login } = require('../Controllers/Auth/login');
 const { register } = require('../Controllers/Auth/register');
-const { VerifyOTP } = require('../Controllers/Auth/verifyOTPPin');
-const { RequestOTP_PIN } = require('../Controllers/Auth/RequestOTP_PIN');
+const { VerifyOTP } = require('../Controllers/Auth/verifyotppin');
+const { RequestOTP_PIN } = require('../Controllers/Auth/requestotp_pin');
 const { PasswordReset, CreateNewPassword, VerifyResetEmail } = require('../Controllers/Auth/forgotpassword');
 
 router.post('/login', login); //login a user

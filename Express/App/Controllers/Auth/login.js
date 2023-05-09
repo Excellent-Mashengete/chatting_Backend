@@ -3,7 +3,6 @@ const db = require("../../Models");
 const users = db.Users;
 const Sequelize = db.Sequelize;
 const { sendEmail } = require("../../Utils/email");
-const https = require('https')
 
 module.exports.login = async (req, res) => {
     const { identifier, password } = req.body
