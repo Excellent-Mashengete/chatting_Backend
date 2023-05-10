@@ -25,7 +25,7 @@ app.use(express.json());
 
 const db = require('./App/Models/');
 
-db.sequelize.authenticate({force: false }) //once your server is running change sync to authenticted and true to false
+db.sequelize.sync({force: true }) //once your server is running change sync to authenticted and true to false
    .then(() => {
       console.log("Database is connected");
    }).catch((err) => {

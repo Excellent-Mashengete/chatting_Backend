@@ -40,11 +40,9 @@ module.exports.VerifyOTP = async (req, res) => {
             const accessToken = jwt.sign({ "id": user.dataValues.id},
                 process.env.ACCESS_TOKEN_SECRET,{
                     algorithm: "HS256",
-                    expiresIn: 3600 * 24 *24
                 }
             );
-
-            return res.status(200).json({ message: 'OTP PIN verified successfully!', phone: user.dataValues.phone, name: user.dataValues.firstname + " " + user.dataValues.lastname, token :accessToken, isLoogedIn: user.dataValues.isLoogedIn });
+            return res.status(200).json({ message: 'OTP PIN verified successfully!', phone: user.dataValues.phone, name: user.dataValues.firstname + " " + user.dataValues.lastname, token :accessToken, islogged: user.dataValues.isLoogedIn });
         }
     }catch(e) {
         res.status(500).json({error: "Database error while trying to verify a user!" });

@@ -1,5 +1,4 @@
 const db = require("../../Models");
-const users = db.Users;
 const messages = db.Messages;
 const Sequelize = db.Sequelize;
 

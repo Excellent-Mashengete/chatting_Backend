@@ -32,9 +32,9 @@ module.exports.login = async (req, res) => {
                     return res.status(400).json({ error: "Unable to compare hashed password" });
                 } else if (result === true){ 
                     const header = "To verify your email address, please use the following One Time Password(OTP) \n";
-                    const body = `OTP PIN: ${user.dataValues.OTP_Pin}`;
+                    const body = `Hi ${user.dataValues.firstname} ${user.dataValues.lastname} \n\n Your Chatting OTP PIN is: ${user.dataValues.OTP_Pin}`;
                     const footer = "\n Do not share this OTP with others";
-                    const message = header +'\n' + body + '\n' + footer + '\n' + "\n Thank you!";
+                    const message = header +'\n' + body + '\n' + footer + '\n' + "\n Thank you!\nChatting Team";
                     
                     //send an email with an OTP PIN
                     await sendEmail(user.dataValues.email, "Verify your candidate account", message);
